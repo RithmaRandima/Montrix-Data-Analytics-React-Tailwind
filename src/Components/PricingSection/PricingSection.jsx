@@ -1,11 +1,18 @@
 import React from "react";
 import { IoMdAnalytics } from "react-icons/io";
 import PricingBox from "./PricingBox/PricingBox";
+import {
+  FaApplePay,
+  FaCcAmazonPay,
+  FaCcMastercard,
+  FaCcPaypal,
+  FaCcVisa,
+} from "react-icons/fa";
 
 const PricingSection = () => {
   return (
     <div
-      className="w-[100%]  h-[100vh] grid grid-cols-2 text-white "
+      className="w-[100%]  h-[100%] grid grid-cols-2 text-white  py-[50px]"
       id="pricing"
     >
       {/* left section */}
@@ -27,7 +34,13 @@ const PricingSection = () => {
             Accepted Payment Methods
           </p>
 
-          <div className="w-[370px] h-[80px] bg-[#151515]"></div>
+          <div className="w-[370px] h-[80px] bg-[#151515] flex items-center justify-around text-[40px]">
+            <FaCcVisa className="hover:text-[#00df25] cursor-pointer hover:scale-90 duration-200" />
+            <FaCcMastercard className="hover:text-[#00df25] cursor-pointer hover:scale-90 duration-200" />
+            <FaCcPaypal className="hover:text-[#00df25] cursor-pointer hover:scale-90 duration-200" />
+            <FaCcAmazonPay className="hover:text-[#00df25] cursor-pointer hover:scale-90 duration-200" />
+            <FaApplePay className="hover:text-[#00df25] cursor-pointer hover:scale-90 duration-200" />
+          </div>
         </div>
       </div>
 
