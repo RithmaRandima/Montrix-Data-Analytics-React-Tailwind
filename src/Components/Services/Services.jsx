@@ -5,7 +5,7 @@ import ServiceBox from "./ServiceBox/ServiceBox";
 
 const Services = () => {
   return (
-    <div className="bg-red-300 py-7">
+    <div className="bg-red-300 py-7" id="services">
       {/* top section */}
       <div className="text-center mb-[20px] text-white">
         <p className="uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">

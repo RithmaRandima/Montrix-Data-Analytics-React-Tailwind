@@ -4,7 +4,10 @@ import PricingBox from "./PricingBox/PricingBox";
 
 const PricingSection = () => {
   return (
-    <div className="w-[100%]  h-[100vh] grid grid-cols-2 text-white ">
+    <div
+      className="w-[100%]  h-[100vh] grid grid-cols-2 text-white "
+      id="pricing"
+    >
       {/* left section */}
       <div className="w-[100%] h-[100%] flex flex-col justify-start items-center pl-[70px]">
         <div>

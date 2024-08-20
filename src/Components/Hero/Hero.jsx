@@ -4,7 +4,7 @@ import home_video from "../../Assets/home_video.mp4";
 
 function Hero() {
   return (
-    <div className="text-white h-[100vh] w-[100%] relative">
+    <div id="home" className="text-white h-[100vh] w-[100%] relative">
       <video autoPlay loop muted className="h-[100%] w-[100%] object-cover">
         <source src={home_video} type="video/mp4" />
       </video>

@@ -5,7 +5,10 @@ import about_video from "../../Assets/about_video.mp4";
 
 const AboutUs = () => {
   return (
-    <div className="text-white w-[100%] h-[100%] flex flex-col items-center py-16">
+    <div
+      id="about"
+      className="text-white w-[100%] h-[100%] flex flex-col items-center py-16"
+    >
       {/* top section */}
       <div className="text-center mb-[50px] ">
         <p className="uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">

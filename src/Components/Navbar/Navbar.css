@@ -1,0 +1,21 @@
+.nav-links li {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  position: relative;
+}
+.nav-links li:after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #00df25;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+.nav-links li:hover:after {
+  width: 50%;
+}

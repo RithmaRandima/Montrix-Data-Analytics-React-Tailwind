@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth !important;
+}
+
 body {
   background-color: #000a00;
 }

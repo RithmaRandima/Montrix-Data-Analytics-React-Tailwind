@@ -23,8 +23,8 @@ function App() {
       <Analytics />
       <Testimonials />
       <Services />
-      <Blog />
       <PricingSection />
+      <Blog />
       <NewsLetter />
       <Footer />
     </div>
