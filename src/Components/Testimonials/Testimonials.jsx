@@ -2,7 +2,21 @@ import React from "react";
 import { IoMdAnalytics } from "react-icons/io";
 import TestimonialBox from "./TestimonialBox/TestimonialBox";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import { testimonialData } from "../../Data/TestimonialData";
+
 const Testimonials = () => {
+  var settings = {
+    dots: false,
+    arrow: false,
+    autoplay: true,
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <div className="w-[100%] h-[100%] flex flex-col items-center py-10 text-white pb-24">
       {/* top section */}
@@ -24,9 +38,20 @@ const Testimonials = () => {
       <div className="w-[99%] h-[40vh] border-[1px] border-gray-600 rounded-xl py-5 px-6 ">
         <div className="grid grid-cols-4 w-[100%] h-[100%]">
           {/* left */}
-          <div className="col-span-3 bg-[#111111] h-[45vh] rounded-br-[200px] shadow-inner shadow-[#1a1a1a] flex justify-center items-center overflow-hidden">
-            {/* testimonial box */}
-            <TestimonialBox />
+          <div className="col-span-3 bg-[#111111] h-[45vh] rounded-br-[200px] shadow-inner shadow-[#1a1a1a] overflow-hidden">
+            <Slider {...settings}>
+              {testimonialData.map((data) => {
+                return (
+                  <TestimonialBox
+                    img={data.img}
+                    key={data.id}
+                    name={data.name}
+                    position={data.position}
+                    message={data.message}
+                  />
+                );
+              })}
+            </Slider>
           </div>
           {/* right */}
           <div className=" h-[100%] w-[100%] flex items-center justify-center flex-col">

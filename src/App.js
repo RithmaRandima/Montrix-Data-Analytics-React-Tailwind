@@ -21,9 +21,9 @@ function App() {
       <AboutUs />
       <CustomersSection />
       <Analytics />
-      <Testimonials />
       <Services />
       <PricingSection />
+      <Testimonials />
       <Blog />
       <NewsLetter />
       <Footer />

@@ -1,53 +1,58 @@
-import user01 from "../assets/user-1.jpg";
-import user02 from "../assets/user-2.jpg";
-import user03 from "../assets/user-3.jpg";
-import user04 from "../assets/user-4.jpg";
-import user05 from "../assets/user-5.jpg";
+import user01 from "../Assets/user-1.jpg";
+import user02 from "../Assets/user-2.jpg";
+import user03 from "../Assets/user-3.jpg";
+import user04 from "../Assets/user-4.jpg";
+import user05 from "../Assets/user-5.jpg";
 
 export const testimonialData = [
   {
     id: 1,
     img: user01,
-    title: "Sri Lankan Tour",
-    message: `Laudantium  molestiae quibusdam, in magnam aliquid
-          consectetur! Rem  id quis eius repudiandae hic Rem  id quis eius repudiandae hic`,
-    name: "Rithma Randima",
-    city: "Bali",
+    message: ` Unlock the power of big data and analytics to gain invaluable insights
+        into your business operations. Our platform provides advanced tools and
+        techniques to analyze vast datasets, enabling you to make informed
+        decisions and drive strategic growth.`,
+    name: "Sophia Chen",
+    position: "CFO, NexGen Enterprises",
   },
   {
     id: 2,
     img: user02,
-    title: "Sri Lankan Tour",
-    message: `Laudantium  molestiae quibusdam, in magnam aliquid
-          consectetur! Rem  id quis eius repudiandae hic Rem  id quis eius repudiandae hic`,
+    message: ` Unlock the power of big data and analytics to gain invaluable insights
+        into your business operations. Our platform provides advanced tools and
+        techniques to analyze vast datasets, enabling you to make informed
+        decisions and drive strategic growth.`,
     name: "Lahiru Chanchala",
-    city: "Bali",
+    position: "CEO, TechSphere Innovations",
   },
   {
     id: 3,
     img: user03,
-    title: "Sri Lankan Tour",
-    message: ` dignissimos molestiae quibusdam, in magnam aliquid
-          consectetur! Rem voluptatum id quis eius repudiandae hic.`,
+    message: ` Unlock the power of big data and analytics to gain invaluable insights
+        into your business operations. Our platform provides advanced tools and
+        techniques to analyze vast datasets, enabling you to make informed
+        decisions and drive strategic growth.`,
     name: "Angle Jons",
-    city: "UK",
+    position: "CFO, GenV Enterprises",
   },
   {
     id: 4,
     img: user04,
-    title: "Sri Lankan Tour",
-    message: ` dignissimos molestiae quibusdam, in magnam aliquid
-          consectetur! Rem voluptatum id quis eius repudiandae hic. quis eius  hic.`,
+    message: `  Unlock the power of big data and analytics to gain invaluable insights
+        into your business operations. Our platform provides advanced tools and
+        techniques to analyze vast datasets, enabling you to make informed
+        decisions and drive strategic growth.`,
     name: "John Snow",
-    city: "Winterfell",
+    position: "COO, Visionary Technologies",
   },
   {
     id: 5,
     img: user05,
-    title: "Sri Lankan Tour",
-    message: `Laudantium dignissimos molestiae quibusdam, in magnam aliquid
-          consectetur! Rem voluptatum id quis eius repudiandae hic.`,
+    message: ` Unlock the power of big data and analytics to gain invaluable insights
+        into your business operations. Our platform provides advanced tools and
+        techniques to analyze vast datasets, enabling you to make informed
+        decisions and drive strategic growth.`,
     name: "Phil Joker",
-    city: "New York",
+    position: "NewYorkTimes Data Solutiob",
   },
 ];
