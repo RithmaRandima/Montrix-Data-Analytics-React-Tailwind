@@ -2,6 +2,10 @@ import React from "react";
 import { IoMdAnalytics } from "react-icons/io";
 import bg_img from "../../Assets/sl_022321_41020_35.jpg";
 import about_video from "../../Assets/about_video.mp4";
+import AboutUsItemBox from "./AboutUsItemBox/AboutUsItemBox";
+import { GrServerCluster } from "react-icons/gr";
+import { GiServerRack } from "react-icons/gi";
+import { FaServer } from "react-icons/fa";
 
 const AboutUs = () => {
   return (
@@ -30,62 +34,20 @@ const AboutUs = () => {
       <div className="w-[100%] h-[100%] grid grid-cols-2">
         {/* left */}
         <div className="w-[100%] h-[100%] flex flex-col gap-5 justify-between pl-3">
-          {/* item box */}
-          <div className="w-[100%] h-[200px] pl-1">
-            {/* top */}
-            <div className="flex items-center gap-4 py-3">
-              <div className="w-[80px] h-[80px] bg-[#181818] rounded-lg">
-                {/* <img src="" alt="" /> */}
-              </div>
-              <p className="text-[24px] font-[700] tracking-[2px]">
-                Precision in predictive analytics.
-              </p>
-            </div>
-            {/* bottom */}
-            <p className="md:text-[14px] leading-[23px] tracking-[1px] text-gray-500">
-              Unlock the power of big data and analytics to gain invaluable
-              insights into your business operations. Our platform provides
-              advanced tools and, enabling you to make informed decisions.
-            </p>
-          </div>
+          <AboutUsItemBox
+            icon={<GrServerCluster />}
+            title={"Precision in predictive analytics."}
+          />
 
-          {/* item box */}
-          <div className="w-[100%] h-[200px] pl-1">
-            {/* top */}
-            <div className="flex items-center gap-4 py-3">
-              <div className="w-[80px] h-[80px] bg-[#181818] rounded-lg">
-                {/* <img src="" alt="" /> */}
-              </div>
-              <p className="text-[24px] font-[700] tracking-[2px]">
-                Precision in predictive analytics.
-              </p>
-            </div>
-            {/* bottom */}
-            <p className="md:text-[14px] leading-[23px] tracking-[1px] text-gray-500">
-              Unlock the power of big data and analytics to gain invaluable
-              insights into your business operations. Our platform provides
-              advanced tools and, enabling you to make informed decisions.
-            </p>
-          </div>
+          <AboutUsItemBox
+            icon={<GiServerRack />}
+            title={"Seamless integration for data synergy."}
+          />
 
-          {/* item box */}
-          <div className="w-[100%] h-[200px] pl-1">
-            {/* top */}
-            <div className="flex items-center gap-4 py-3">
-              <div className="w-[80px] h-[80px] bg-[#181818] rounded-lg">
-                {/* <img src="" alt="" /> */}
-              </div>
-              <p className="text-[24px] font-[700] tracking-[2px]">
-                Precision in predictive analytics.
-              </p>
-            </div>
-            {/* bottom */}
-            <p className="md:text-[14px] leading-[23px] tracking-[1px] text-gray-500">
-              Unlock the power of big data and analytics to gain invaluable
-              insights into your business operations. Our platform provides
-              advanced tools and, enabling you to make informed decisions.
-            </p>
-          </div>
+          <AboutUsItemBox
+            icon={<FaServer />}
+            title={"Robust scalability for data growth."}
+          />
         </div>
 
         {/* right */}
