@@ -1,7 +1,7 @@
-import img2 from "../Assets/blog-02.jpg";
-import img3 from "../Assets/blog-03.jpg";
-import img4 from "../Assets/blog-04.jpg";
-import img5 from "../Assets/blog-05.jpg";
+import img2 from "../Assets/blog-2.webp";
+import img3 from "../Assets/blog-3.jpg";
+import img4 from "../Assets/blog-4.jpg";
+import img5 from "../Assets/blog-5.png";
 
 export const blogData = [
   {
@@ -10,25 +10,25 @@ export const blogData = [
     date: "April 7, 2025",
     title: "Discover the Hidden Gems",
     description:
-      "Benefits of traveling alone, from the freedom to discover new places with new friends.",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur est, iure, sit vero eligendi voluptates libero quam optio accusantium similique repellat.",
   },
 
   {
     id: 2,
     img: img2,
     date: "April 7, 2025",
-    title: "Must-See Landmarks",
+    title: "Must-See Opportunities",
     description:
-      "Iconic landmarks that make Europe one of the world's most popular travel destinations.",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur est, iure, sit vero eligendi voluptates libero quam optio accusantium similique repellat.",
   },
 
   {
     id: 3,
     img: img3,
     date: "April 7, 2025",
-    title: "Traveling on a Budget",
+    title: "Do Work on a Budget",
     description:
-      "Practical advice for travelers who want to see the world without breaking the bank..",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur est, iure, sit vero eligendi voluptates libero quam optio accusantium similique repellat.",
   },
 
   {
@@ -37,6 +37,6 @@ export const blogData = [
     date: "April 7, 2025",
     title: "Explore the Wonders",
     description:
-      "Must-see destinations and experiences, including wildlife and cultural experiences.",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur est, iure, sit vero eligendi voluptates libero quam optio accusantium similique repellat.",
   },
 ];

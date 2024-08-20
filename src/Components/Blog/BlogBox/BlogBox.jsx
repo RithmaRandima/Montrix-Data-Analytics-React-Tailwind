@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const BlogBox = (props) => {
   return (
@@ -13,7 +14,7 @@ const BlogBox = (props) => {
       </div>
       {/* text section */}
       <div className="w-[100%] md:w-[60%] text-left font-sans">
-        <div className="md:bg-black bg-red-600 w-fit text-white  my-4 md:my-2  px-6 py-1 md-5 md:px-3 text-[16px] md:text-[10px] rounded-lg md:rounded-md hover:scale-75 duration-500">
+        <div className="bg-[#00df25] w-fit text-white  my-4 md:my-2  px-6 py-1 md-5 md:px-3 text-[16px] md:text-[10px] rounded-lg md:rounded-md hover:scale-75 duration-500">
           {props.date}
         </div>
 
@@ -23,8 +24,8 @@ const BlogBox = (props) => {
         <p className="font-[200] text-[18px] md:text-[15px] mb-3">
           {props.description}
         </p>
-        <button className="hidden md:block md:py-1 md:text-[13px] mb-3">
-          Read More
+        <button className="hidden md:block md:py-1 md:text-[13px] mb-3 hover:text-red-400 ">
+          Read More <FaArrowRightLong />
         </button>
       </div>
     </div>
