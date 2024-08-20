@@ -1,5 +1,7 @@
 import React from "react";
-import img1 from "../../Assets/analytics.png";
+import img1 from "../../Assets/feature-1.png";
+import img2 from "../../Assets/feature-2.png";
+import img3 from "../../Assets/feature-3.png";
 import SolutionBox from "./SolutionBox/SolutionBox";
 import { IoMdAnalytics } from "react-icons/io";
 
@@ -18,9 +20,9 @@ const SolutionSection = () => {
       </div>
       {/* bottom box */}
       <div className=" w-[90%] grid md:grid-cols-3 gap-8">
-        <SolutionBox image={img1} />
-        <SolutionBox image={img1} />
-        <SolutionBox image={img1} />
+        <SolutionBox image={img1} title={"Data Analysis"} />
+        <SolutionBox image={img2} title={"AI Solutions"} />
+        <SolutionBox image={img3} title={"Data Security"} />
       </div>
     </div>
   );
