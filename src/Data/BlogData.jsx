@@ -1,7 +1,7 @@
 import img2 from "../Assets/blog-2.webp";
 import img3 from "../Assets/blog-3.jpg";
 import img4 from "../Assets/blog-4.jpg";
-import img5 from "../Assets/blog-5.png";
+// import img5 from "../Assets/blog-5.png";
 
 export const blogData = [
   {

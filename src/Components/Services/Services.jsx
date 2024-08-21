@@ -16,10 +16,8 @@ const Services = () => {
           <img src={bgImg} alt="fill murray" />
         </Background>
 
-        {/* overlay */}
-        {/* <div className="w-[100%] h-[100%] z-10 bg-gradient-to-t z-10 from-black to-transparent absolute "></div> */}
         {/* content */}
-        <div className="w-[100%] h-[100%] absolute z-20"></div>
+        <div className="w-[100%] h-[100%] absolute "></div>
         {/* top section */}
         <div className="text-center  text-white py-6">
           <p className="uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">

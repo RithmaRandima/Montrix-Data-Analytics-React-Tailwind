@@ -47,7 +47,7 @@ const CustomersSection = () => {
     ],
   };
   return (
-    <div className="w-[100%] h-[100%] py-4 bg-[#141414] text-white">
+    <div className="w-[100%] h-[100%] py-4 bg-[#121212] text-white">
       {/* top section */}
       <div className="text-center mb-[20px] py-5 ">
         <p className="uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">

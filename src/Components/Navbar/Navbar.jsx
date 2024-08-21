@@ -29,7 +29,17 @@ function Navbar() {
           : "fixed flex justify-between items-center box-border w-[100%] bg-transparent top-0 z-10 py-2 px-6 text-white"
       }
     >
-      <h1 className="w-full text-3xl font-bold text-[#00df25]">Montrix.</h1>
+      {/* logo Section */}
+      <div className="relative w-fit pb-1 pl-1 pr-5 mb-4">
+        <h1 className="text-[15px] font-bold">
+          <span className="font-extrabold text-[20px]  text-[#00df25]">
+            Montrix
+          </span>{" "}
+        </h1>
+        <p className="absolute text-[10px] bottom-[-10px] right-[-10px] bg-[#00df25] px-1 font-[700] capitalize text-black">
+          big data <span className="text-white bg-black p-1">Analytics</span>
+        </p>
+      </div>
       <ul className="nav-links hidden md:flex gap-4">
         <li
           className="p-4 flex items-baseline justify-center gap-2"
