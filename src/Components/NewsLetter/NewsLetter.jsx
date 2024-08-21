@@ -3,12 +3,12 @@ import home_video from "../../Assets/newsletter_video.mp4";
 
 function NewsLetter() {
   return (
-    <div className="w-full h-[350px]  text-white bg-red-300 relative">
+    <div className="w-full h-[300px]  text-white bg-red-300 relative">
       <video autoPlay loop muted className="h-[100%] w-[100%] object-cover">
         <source src={home_video} type="video/mp4" />
       </video>
 
-      <div className="absolute left-0 top-0 w-[100%] h-[100%] py-6 px-5 flex items-center justify-center flex-col  text-center align-middle bg-gradient-to-t from-black/70 to-black/2">
+      <div className="absolute left-0 top-0 w-[100%] h-[100%] py-4 px-5 flex items-center justify-center flex-col  text-center align-middle ">
         <div className=" my-2">
           <h1 className="md:text-4xl sm:text-3xl text-2xl py-2 font-bold">
             Want tips & tricks to optimize your flow?

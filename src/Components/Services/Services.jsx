@@ -4,14 +4,14 @@ import img1 from "../../Assets/feature-1.png";
 import img2 from "../../Assets/feature-2.png";
 import img3 from "../../Assets/feature-3.png";
 import img4 from "../../Assets/feature-4.png";
-import bgImg from "../../Assets/geometry-7723325.jpg";
+import bgImg from "../../Assets/about-background.jpg";
 import ServiceBox from "./ServiceBox/ServiceBox";
 import { Background, Parallax } from "react-parallax";
 
 const Services = () => {
   return (
     <div className="bg-white h-[100%] w-[100%]" id="services">
-      <Parallax strength={300} className="w-[100%] h-[100%] bg-red-300">
+      <Parallax strength={300} className="w-[100%] h-[100%]">
         <Background className="custom-bg w-[100vw] h-[100%]">
           <img src={bgImg} alt="fill murray" />
         </Background>

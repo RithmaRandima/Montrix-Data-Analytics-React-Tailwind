@@ -1,6 +1,6 @@
 import React from "react";
 import { IoMdAnalytics } from "react-icons/io";
-import bg_img from "../../Assets/sl_022321_41020_35.jpg";
+import bg_img from "../../Assets/about-background.jpg";
 import about_video from "../../Assets/about_video.mp4";
 import AboutUsItemBox from "./AboutUsItemBox/AboutUsItemBox";
 import { GrServerCluster } from "react-icons/gr";
@@ -55,11 +55,11 @@ const AboutUs = () => {
           <div
             className="w-[95%] h-fit border-[1px] border-gray-700 rounded-md p-4"
             style={{
-              backgroundImage: `linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url(${bg_img})`,
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(${bg_img})`,
               backgroundSize: "cover",
             }}
           >
-            <div className="w-[100%] h-[300px]">
+            <div className="w-[100%] h-[340px]">
               <video
                 autoPlay
                 loop
@@ -79,37 +79,35 @@ const AboutUs = () => {
       </div>
 
       {/* bottom section */}
-      <div className="w-[99%] h-[100%]  mt-16 border-[1px] border-gray-600 rounded-md grid grid-cols-4 place-items-center py-6">
+      <div className="w-[90%] h-[100%]  mt-16 border-[1px] border-gray-600 rounded-md grid grid-cols-4 place-items-center py-2">
         {/* col */}
-        <div className="text-center py-8  w-[100%] border-r-[1px]  border-gray-600">
-          <h1 className="text-[45px] font-[900] mt-1 text-[#00df25]">
-            150 TB+
-          </h1>
-          <p className="uppercase tracking-[3px] text-[12px] mt-1 font-[300]">
+        <div className="text-center py-4  w-[100%] border-r-[1px]  border-gray-600">
+          <h1 className="text-[40px] font-[900] text-[#00df25]">150 TB+</h1>
+          <p className="uppercase tracking-[3px] text-[10px] mt-1 font-[300]">
             Data Processed
           </p>
         </div>
 
         {/* col */}
-        <div className="text-center py-8 w-[100%] border-r-[1px]  border-gray-600">
-          <h1 className="text-[45px] font-[900] mt-1 text-[#00df25]">25+</h1>
-          <p className="uppercase tracking-[3px] text-[12px] mt-1 font-[300]">
+        <div className="text-center py-4 w-[100%] border-r-[1px]  border-gray-600">
+          <h1 className="text-[40px] font-[900]  text-[#00df25]">25+</h1>
+          <p className="uppercase tracking-[3px] text-[10px] mt-1 font-[300]">
             Years Experienced​
           </p>
         </div>
 
         {/* col */}
         <div className="text-center py-8 w-[100%] border-r-[1px]  border-gray-600">
-          <h1 className="text-[45px] font-[900] mt-1 text-[#00df25]">1500+</h1>
-          <p className="uppercase tracking-[3px] text-[12px] mt-1 font-[300]">
+          <h1 className="text-[40px] font-[900]  text-[#00df25]">1500+</h1>
+          <p className="uppercase tracking-[3px] text-[10px] mt-1 font-[300]">
             Trusted Partners​
           </p>
         </div>
 
         {/* col */}
         <div className="text-center py-8">
-          <h1 className="text-[45px] font-[900] mt-1 text-[#00df25]">50+</h1>
-          <p className="uppercase tracking-[3px] text-[12px] mt-1 font-[300]">
+          <h1 className="text-[40px] font-[900] text-[#00df25]">50+</h1>
+          <p className="uppercase tracking-[3px] text-[10px] mt-1 font-[300]">
             Professional Analyst​
           </p>
         </div>

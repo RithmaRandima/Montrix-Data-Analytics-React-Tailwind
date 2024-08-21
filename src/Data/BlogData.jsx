@@ -31,12 +31,12 @@ export const blogData = [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur est, iure, sit vero eligendi voluptates libero quam optio accusantium similique repellat.",
   },
 
-  {
-    id: 4,
-    img: img5,
-    date: "April 7, 2025",
-    title: "Explore the Wonders",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur est, iure, sit vero eligendi voluptates libero quam optio accusantium similique repellat.",
-  },
+  // {
+  //   id: 4,
+  //   img: img5,
+  //   date: "April 7, 2025",
+  //   title: "Explore the Wonders",
+  //   description:
+  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur est, iure, sit vero eligendi voluptates libero quam optio accusantium similique repellat.",
+  // },
 ];

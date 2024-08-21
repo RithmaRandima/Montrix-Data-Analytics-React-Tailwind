@@ -1,12 +1,12 @@
 import React from "react";
-import bg_img from "../../../Assets/panoramic-view-dubai-city-illuminated-neon-spectrum.jpg";
+import bg_img from "../../../Assets/about-background.jpg";
 
 function SolutionBox(props) {
   return (
     <div
       className=" border-[1px] border-gray-800 w-full shadow-xl flex flex-col p-4 pt-6 my-4 round-lg text-white hover:scale-105 duration-300"
       style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url(${bg_img})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(${bg_img})`,
         backgroundSize: "cover",
       }}
     >
