@@ -1,6 +1,4 @@
 import React from "react";
-import { FaQuoteLeft } from "react-icons/fa";
-import img1 from "../../../Assets/user-2.jpg";
 import { RiDoubleQuotesR } from "react-icons/ri";
 
 const TestimonialBox = (props) => {

@@ -1,5 +1,5 @@
 import React from "react";
-import home_video from "../../Assets/home_video.mp4";
+import home_video from "../../Assets/newsletter_video.mp4";
 
 function NewsLetter() {
   return (

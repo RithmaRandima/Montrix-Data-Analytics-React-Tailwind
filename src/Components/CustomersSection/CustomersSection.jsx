@@ -1,11 +1,55 @@
 import React from "react";
-import { IoMdAnalytics } from "react-icons/io";
+import {
+  IoLogoApple,
+  IoLogoPinterest,
+  IoLogoTux,
+  IoLogoTwitter,
+  IoMdAnalytics,
+} from "react-icons/io";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import CustomerBox from "./CustomerBox/CustomerBox";
+import { IoLogoDiscord, IoLogoEdge } from "react-icons/io5";
 
 const CustomersSection = () => {
+  var settings = {
+    arrows: false,
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    speed: 2600,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 1,
+
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          infinite: true,
+        },
+      },
+    ],
+  };
   return (
-    <div className="w-[100%] h-[100%] py-4 bg-[#101010] text-white">
+    <div className="w-[100%] h-[100%] py-4 bg-[#141414] text-white">
       {/* top section */}
-      <div className="text-center mb-[20px] ">
+      <div className="text-center mb-[20px] py-5 ">
         <p className="uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">
           <IoMdAnalytics size={30} />
           TRUSTED CUSTOMER
@@ -21,7 +65,16 @@ const CustomersSection = () => {
         </p>
       </div>
       {/* bottom section */}
-      <div className="w-[100%] bg-green-800 h-[200px]"></div>
+      <div className="w-[100%] h-[100%] py-4">
+        <Slider {...settings}>
+          <CustomerBox icon={<IoLogoApple />} />
+          <CustomerBox icon={<IoLogoTwitter />} />
+          <CustomerBox icon={<IoLogoDiscord />} />
+          <CustomerBox icon={<IoLogoTux />} />
+          <CustomerBox icon={<IoLogoEdge />} />
+          <CustomerBox icon={<IoLogoPinterest />} />
+        </Slider>
+      </div>
     </div>
   );
 };

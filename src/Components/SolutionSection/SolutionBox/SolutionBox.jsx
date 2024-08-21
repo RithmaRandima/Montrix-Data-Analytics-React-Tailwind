@@ -26,7 +26,7 @@ function SolutionBox(props) {
         totam vitae soluta veritatis velit sunt natus nobis.
         {props.description}
       </p>
-      <button className="bg-[#00df25] w-fit rounded-full tracking-[2px] my-4 mt-6 mx-auto py-2 px-7 text-[13px] text-black font-bold hover:bg-white">
+      <button className="bg-[#00df25] w-fit rounded-full tracking-[2px] my-4 mt-6 mx-auto py-2 px-7 text-[10px] text-black font-bold hover:bg-white">
         view more
       </button>
     </div>
