@@ -4,7 +4,7 @@ import bg_img from "../../../Assets/panoramic-view-dubai-city-illuminated-neon-s
 function ServiceBox(props) {
   return (
     <div
-      className=" border-[1px] border-gray-800 w-full shadow-xl flex flex-col text-white p-4 my-4 round-lg hover:scale-105 duration-300"
+      className=" border-[1px] border-gray-800 w-[95%] mx-auto shadow-xl flex flex-col text-white p-4 my-4 round-lg hover:scale-105 duration-300"
       style={{
         backgroundImage: `linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(${bg_img})`,
         backgroundSize: "cover",
