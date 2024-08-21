@@ -21,14 +21,14 @@ const Testimonials = () => {
     <div className="w-[100%] h-[100%] flex flex-col items-center py-10 text-white pb-24">
       {/* top section */}
       <div className="text-center mb-[50px] ">
-        <p className="uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">
+        <p className="uppercase md:text-[16px] text-[13px] flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">
           <IoMdAnalytics size={30} />
           Our Testimonial
         </p>
-        <h1 className="md:text-4xl sm:text-3xl text-4xl font-[700] md:py-4">
+        <h1 className="md:text-4xl sm:text-3xl text-[24px] font-[700] md:py-4">
           Unlocking Insights with Big Data
         </h1>
-        <p className="md:text-[13px] mt-4 leading-[30px] tracking-[2px] w-[75%] mx-auto text-xl text-gray-500">
+        <p className="text-[14px] mt-4 leading-[30px] tracking-[2px] w-[75%] mx-auto text-gray-500">
           Discover what our clients have to say about the transformative power
           of big data analysis.
         </p>
@@ -38,7 +38,7 @@ const Testimonials = () => {
       <div className="w-[99%] h-[40vh] border-[1px] border-gray-600 rounded-xl py-5 px-6 ">
         <div className="grid grid-cols-4 w-[100%] h-[100%]">
           {/* left */}
-          <div className="col-span-3 bg-[#111111] h-[45vh] rounded-br-[200px] shadow-inner shadow-[#1a1a1a] overflow-hidden">
+          <div className="col-span-4 md:col-span-3 bg-[#111111] md:h-[45vh] md:rounded-br-[200px] shadow-inner shadow-[#1a1a1a] overflow-hidden">
             <Slider {...settings}>
               {testimonialData.map((data) => {
                 return (
@@ -54,7 +54,7 @@ const Testimonials = () => {
             </Slider>
           </div>
           {/* right */}
-          <div className=" h-[100%] w-[100%] flex items-center justify-center flex-col">
+          <div className="hidden  h-[100%] w-[100%] md:flex items-center justify-center flex-col">
             <h1 className="text-[50px] font-[900] mt-[-60px] text-[#00df25]">
               50+
             </h1>

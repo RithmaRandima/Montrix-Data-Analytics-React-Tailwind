@@ -15,9 +15,9 @@ const Footer = () => {
     <div className="w-[100%] text-white  bg-[#050505]">
       <div className="grid grid-cols-1 md:grid-cols-4 pb-9 pt-3 ">
         {/*col-1  */}
-        <div className=" w[100%] h-[100%] p-6 pr-0">
+        <div className="md:w-[100%] w-[80%] mx-auto text-center md:text-right h-[100%] p-6 pr-0">
           {/* logo Section */}
-          <div className="relative w-fit  pb-1 pl-1 pr-5 mb-10">
+          <div className="relative w-fit mx-auto  pb-1 pl-1 pr-5 mb-10">
             <h1 className="text-[15px] font-bold">
               <span className="font-extrabold text-[20px]  text-[#00df25]">
                 Montrix
@@ -28,17 +28,17 @@ const Footer = () => {
               <span className="text-white bg-black p-1">Analytics</span>
             </p>
           </div>
-          <p className="w-[100%] mx-auto text-left text-[15px] text-gray-400">
+          <p className="w-[100%] mx-auto text-center md:text-left text-[15px] text-gray-400">
             <span className="text-[#00df25] font-bold">Montrix.</span> founded
             in 2025. There are many variations of passages of Ipsum available,
             but the majority have suffered alteration in some form, by injected
             humour or randomised words which.
           </p>
 
-          <h1 className="font-bold my-4 text-[16px] tracking-[2px]">
+          <h1 className="font-bold  md:mr-[142px] my-4 text-[16px]  tracking-[2px]">
             FOLLOW ALONG
           </h1>
-          <div className="flex gap-5 items-center w-fit justify-center mt-[13px]">
+          <div className="flex gap-5 items-center w-fit mx-auto md:ml-1 justify-center mt-[13px]">
             <p>
               <FaInstagram
                 size={20}
@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
 
         {/*col-2  */}
-        <div className=" text-center">
+        <div className="hidden md:block text-center">
           <h1 className="font-bold my-5 capitalize text-[20px] tracking-[2px]">
             Our Services
           </h1>
@@ -120,7 +120,7 @@ const Footer = () => {
         </div>
 
         {/* col-3 */}
-        <div className=" text-center">
+        <div className="hidden md:block text-center">
           <h1 className="font-bold my-5 capitalize text-[20px] tracking-[2px]">
             Our Links
           </h1>
@@ -167,11 +167,11 @@ const Footer = () => {
         </div>
 
         {/* col-4 */}
-        <div className=" w[100%] h-[100%] p-6">
+        <div className=" w[100%] text-center md:text-left h-[100%] p-6">
           <h1 className="font-bold mb-5 text-[19px] tracking-[2px] capitalize">
             Contact us
           </h1>
-          <div className="flex items-center my-6 gap-5 cursor-pointer">
+          <div className="flex flex-col md:flex-row items-center my-6 gap-5 cursor-pointer">
             <RiUserLocationFill
               size={26}
               className="hover:scale-125 duration-300  hover:text-[#00df25]"
@@ -179,7 +179,7 @@ const Footer = () => {
             <p>317 Pacific C Hwy Huntington, CA 92648</p>
           </div>
 
-          <div className="flex items-center my-6 gap-5 cursor-pointer">
+          <div className="flex flex-col md:flex-row items-center my-6 gap-5 cursor-pointer">
             <GiRotaryPhone
               size={26}
               className="hover:scale-125 duration-300  hover:text-[#00df25]"
@@ -190,7 +190,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex items-center my-6 gap-5  cursor-pointer">
+          <div className="flex flex-col md:flex-row items-center my-6 gap-5  cursor-pointer">
             <SiMinutemailer
               size={26}
               className="hover:scale-125 duration-300  hover:text-[#00df25]"
@@ -210,7 +210,7 @@ const Footer = () => {
           RIGHTS RESERVED.
         </p>
         {/* logo Section */}
-        <div className="relative w-fit  pb-1 pl-1 pr-5 mb-[10px] ">
+        <div className="hidden md:block relative w-fit  pb-1 pl-1 pr-5 mb-[10px] ">
           <h1 className="text-[15px] font-bold">
             <span className="font-extrabold text-[20px]  text-[#00df25]">
               Montrix

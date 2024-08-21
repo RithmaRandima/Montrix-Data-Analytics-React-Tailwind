@@ -11,19 +11,19 @@ import { Background, Parallax } from "react-parallax";
 
 const Blog = () => {
   return (
-    <div id="blog" className="h-[100%] w-[100%] text-white mt-[100px] ">
+    <div id="blog" className="h-[100%] w-[100%] text-white md:mt-[100px] ">
       <Parallax strength={300} className="w-[100%] h-[100%]">
         <Background className="custom-bg w-[100vw] h-[100%]">
-          <img src={bgImg} alt="fill murray" />
+          <img src={bgImg} alt="fill murray" className="h-[200vh]" />
         </Background>
 
         <div className="w-[100%] h-[100%] bg-gradient-to-t from-black/80 to-black/70">
           <div className="flex flex-col items-center justify-center px-7 w-[100%]">
-            <p className="uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">
+            <p className="md:text-[16px] text-[13px] uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">
               <IoMdAnalytics size={30} />
               News & Blog
             </p>
-            <h1 className="md:text-4xl sm:text-3xl text-4xl font-[700] text-center md:py-4">
+            <h1 className="md:text-4xl sm:text-3xl text-[24px] font-[700] text-center md:py-4">
               Stay Update with Tiva From Latest & <br /> Popular News
             </h1>
           </div>
@@ -44,7 +44,7 @@ const Blog = () => {
                 <h1 className="my-3 font-extrabold text-[22px]">
                   Plan to Secure Your Sensitive Data
                 </h1>
-                <p className="font-[200] text-[18px] my-4">
+                <p className="font-[200] md:text-[18px] text-[15px] my-4">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
                   itaque. Tempore, quaerat? Illum quidem labore, aut ducimus
                   tenetur adipisci iste et illo fuga alias unde dolore velit ex

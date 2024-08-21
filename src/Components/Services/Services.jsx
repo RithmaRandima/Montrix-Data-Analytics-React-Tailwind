@@ -51,23 +51,23 @@ const Services = () => {
   };
 
   return (
-    <div className="bg-white h-[100%] w-[100%] text-center" id="services">
+    <div className="h-[100%] w-[100%] text-center" id="services">
       <Parallax strength={300} className="w-[100%] h-[100%]">
         <Background className="custom-bg w-[100vw] h-[100%]">
-          <img src={bgImg} alt="fill murray" />
+          <img src={bgImg} alt="fill murray" className="w-[100%] h-[120vh]" />
         </Background>
 
         {/* content */}
         {/* top section */}
         <div className="text-center  text-white py-6">
-          <p className="uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">
+          <p className="md:text-[16px] text-[13px] uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">
             <IoMdAnalytics size={30} />
             OUR SERVICES
           </p>
-          <h1 className="md:text-4xl sm:text-3xl text-4xl font-[700] ">
+          <h1 className="md:text-4xl sm:text-3xl text-[24px] font-[700] ">
             We Provide Big Data Analytics <br /> Technical Data Issues
           </h1>
-          <p className="md:text-[13px] mt-2 leading-[20px] tracking-[2px] w-[60%] mx-auto text-xl text-gray-500">
+          <p className="text-[13px] mt-2 leading-[20px] tracking-[2px] w-[60%] mx-auto text-gray-500">
             Unlock the power of your data.
           </p>
         </div>

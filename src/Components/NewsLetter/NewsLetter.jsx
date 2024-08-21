@@ -3,7 +3,7 @@ import home_video from "../../Assets/newsletter_video.mp4";
 
 function NewsLetter() {
   return (
-    <div className="w-full h-[300px]  text-white relative">
+    <div className="w-full h-[300px] text-center  text-white relative">
       <video autoPlay loop muted className="h-[100%] w-[100%] object-cover">
         <source src={home_video} type="video/mp4" />
       </video>
@@ -23,7 +23,7 @@ function NewsLetter() {
               type="email"
               placeholder="Enter Email"
             />
-            <button className="text-[#000] w-[200px] rounded-md ml-4 font-medium my-6 mx-auto py-3 bg-[#00df9a]">
+            <button className="text-[#000] w-[200px] rounded-md md:ml-4 font-medium my-6 mx-auto py-3 bg-[#00df9a]">
               Notify Me
             </button>
           </div>

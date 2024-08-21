@@ -21,7 +21,7 @@ const BlogBox = (props) => {
         <h1 className="my-3 font-extrabold text-[22px] md:text-[19px]">
           {props.title}
         </h1>
-        <p className="font-[200] text-[18px] md:text-[15px] mb-3">
+        <p className="font-[200] text-[15px] md:text-[18px] mb-3">
           {props.description}
         </p>
         <button className="hidden md:block md:py-1 md:text-[13px] mb-3 hover:text-red-400 ">

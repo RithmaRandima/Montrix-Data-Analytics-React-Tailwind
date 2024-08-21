@@ -10,11 +10,11 @@ const SolutionSection = () => {
     <div className="text-white w-[100%] h-[100%] flex flex-col items-center pb-6">
       {/* top text */}
       <div className="text-center mb-[50px] w-[50%]">
-        <p className="uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold">
+        <p className="uppercase flex w-fit items-center mx-auto gap-4 text-[#00df25] tracking-[2px] p-2 font-bold md:text-[16px] text-[13px]">
           <IoMdAnalytics size={30} />
           OUR FEATURES
         </p>
-        <h1 className="md:text-4xl sm:text-3xl text-4xl font-[700] md:py-4">
+        <h1 className="md:text-4xl sm:text-3xl text-[24px] font-[700] md:py-4">
           Actionable Analytics For Your Business
         </h1>
       </div>

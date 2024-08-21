@@ -146,16 +146,71 @@ function Navbar() {
             : "fixed left-[-100%] top-0 ease-in-out duration-500"
         }
       >
-        <ul className=" uppercase  bg-[#000300] p-4 h-full">
-          <h1 className="capitalize w-full text-3xl font-bold text-[#00df9a] pt-4 pl-2">
-            React.
-          </h1>
+        <ul
+          className={
+            color === true
+              ? " capitalize  bg-[#fff] p-4 h-full"
+              : " capitalize  bg-[#000300] p-4 h-full"
+          }
+        >
+          <div className="relative w-fit pb-1 pl-1 pr-5 mb-10">
+            <h1 className="text-[15px] font-bold">
+              <span className="font-extrabold text-[20px]  text-[#00df25]">
+                Montrix
+              </span>{" "}
+            </h1>
+            <p className="absolute text-[10px] bottom-[-10px] right-[-10px] bg-[#00df25] px-1 font-[700] capitalize text-black">
+              big data{" "}
+              <span className="text-white bg-black p-1">Analytics</span>
+            </p>
+          </div>
 
-          <li className="p-4 border-b border-gray-600">Company</li>
-          <li className="p-4 border-b border-gray-600">Resources</li>
-          <li className="p-4 border-b border-gray-600">About</li>
-          <li className="p-4 border-b border-gray-600">Home</li>
-          <li className="p-4 ">Contact</li>
+          <li className="p-4 border-b border-gray-600">
+            <a
+              href="#home"
+              style={{ color: activeNav === "home" ? "#00df25" : "inherit" }}
+            >
+              Home
+            </a>
+          </li>
+
+          <li className="p-4 border-b border-gray-600">
+            <a
+              href="#about"
+              style={{ color: activeNav === "about" ? "#00df25" : "inherit" }}
+            >
+              About
+            </a>
+          </li>
+
+          <li className="p-4 border-b border-gray-600">
+            <a
+              href="#services"
+              style={{
+                color: activeNav === "services" ? "#00df25" : "inherit",
+              }}
+            >
+              Services
+            </a>
+          </li>
+
+          <li className="p-4 border-b border-gray-600">
+            <a
+              href="#pricing"
+              style={{ color: activeNav === "pricing" ? "#00df25" : "inherit" }}
+            >
+              Pricing
+            </a>
+          </li>
+
+          <li className="p-4 ">
+            <a
+              href="#blog"
+              style={{ color: activeNav === "blog" ? "#00df25" : "inherit" }}
+            >
+              Blog
+            </a>
+          </li>
         </ul>
       </ul>
     </div>

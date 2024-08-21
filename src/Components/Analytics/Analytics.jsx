@@ -8,21 +8,21 @@ function Analytics() {
     <div
       className="w-full py-[50px] px-4 h-[100%] text-white"
       style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(${bg_img})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(${bg_img})`,
         backgroundSize: "cover",
       }}
     >
       {/* box 01 */}
       <div className="max-w[1240px] mx-auto grid md:grid-cols-2 gap-5">
         {/* left */}
-        <div className="my-6 px-5 flex flex-col items-start justify-center">
-          <p className="uppercase text-[#00df25] tracking-[2px] p-2 font-bold">
+        <div className="my-6 pl-5 flex flex-col md:items-start items-center justify-center">
+          <p className="uppercase text-[#00df25] tracking-[2px] py-2 font-bold">
             CASE STUDIES
           </p>
-          <h1 className="md:text-5xl sm:text-3xl font-[400] py-3">
+          <h1 className="md:text-5xl sm:text-3xl text-[30px] text-center md:text-left font-[400] py-3">
             Optimizing Supply <br /> Chain Efficiency
           </h1>
-          <p className="md:text-[14px] mt-4 leading-[30px] tracking-[2px] text-xl text-gray-500">
+          <p className="md:text-[17px] text-center md:text-left mt-4 leading-[30px] tracking-[2px] text-[14px] text-gray-500">
             Unlock the power of big data and analytics to gain invaluable
             insights into your business operations. Our platform provides
             advanced tools and techniques to analyze vast datasets, enabling you
@@ -31,7 +31,7 @@ function Analytics() {
         </div>
 
         {/* right */}
-        <div className="flex w-[100%] md:w-[90%] md:mx-auto align-middle justify-center h-[600px] p-5 border-[1px] border-gray-600 rounded-lg relative">
+        <div className="hidden md:flex w-[100%] md:w-[90%] md:mx-auto align-middle justify-center h-[600px] p-5 border-[1px] border-gray-600 rounded-lg relative">
           <img
             src={img1}
             alt="/"
@@ -57,7 +57,7 @@ function Analytics() {
       </div>
 
       {/* box 02 */}
-      <div className="max-w[1240px] mx-auto grid md:grid-cols-2 gap-5 mt-[150px]">
+      <div className="max-w[1240px] mx-auto grid md:grid-cols-2 gap-5 md:mt-[50px]">
         {/* left */}
         <div className="flex align-middle justify-center h-[600px] p-5 border-[1px] border-gray-600 rounded-lg relative">
           <img
@@ -85,14 +85,14 @@ function Analytics() {
 
         {/* right */}
 
-        <div className="my-6 px-5 flex flex-col items-start justify-center">
-          <p className="uppercase text-[#00df25] tracking-[2px] p-2 font-bold">
+        <div className="my-6 pl-5 flex flex-col md:items-start items-center justify-center">
+          <p className="uppercase text-[#00df25] tracking-[2px] py-2 font-bold">
             SOLUTIONS
           </p>
-          <h1 className="md:text-5xl sm:text-3xl font-[400] py-3">
+          <h1 className="md:text-5xl sm:text-3xl text-[30px] text-center md:text-left font-[400] py-3">
             Revolutionizing Retail <br /> with Data Analytics
           </h1>
-          <p className="md:text-[14px] mt-4 leading-[30px] tracking-[2px] text-xl text-gray-500">
+          <p className="md:text-[17px] mt-4 leading-[30px] tracking-[2px] text-center md:text-left text-[14px] text-gray-500">
             Unlock the power of big data and analytics to gain invaluable
             insights into your business operations. Our platform provides
             advanced tools and techniques to analyze vast datasets, enabling you

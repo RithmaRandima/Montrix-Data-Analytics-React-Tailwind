@@ -10,8 +10,7 @@ export const testimonialData = [
     img: user01,
     message: ` Unlock the power of big data and analytics to gain invaluable insights
         into your business operations. Our platform provides advanced tools and
-        techniques to analyze vast datasets, enabling you to make informed
-        decisions and drive strategic growth.`,
+        techniques to analyze vast datasets decisions and drive strategic growth.`,
     name: "Sophia Chen",
     position: "CFO, NexGen Enterprises",
   },
@@ -20,8 +19,7 @@ export const testimonialData = [
     img: user02,
     message: ` Unlock the power of big data and analytics to gain invaluable insights
         into your business operations. Our platform provides advanced tools and
-        techniques to analyze vast datasets, enabling you to make informed
-        decisions and drive strategic growth.`,
+        techniques to analyze vast datasets decisions and drive strategic growth.`,
     name: "Lahiru Chanchala",
     position: "CEO, TechSphere Innovations",
   },
@@ -30,18 +28,16 @@ export const testimonialData = [
     img: user03,
     message: ` Unlock the power of big data and analytics to gain invaluable insights
         into your business operations. Our platform provides advanced tools and
-        techniques to analyze vast datasets, enabling you to make informed
-        decisions and drive strategic growth.`,
+        techniques to analyze vast datasets decisions and drive strategic growth.`,
     name: "Angle Jons",
     position: "CFO, GenV Enterprises",
   },
   {
     id: 4,
     img: user04,
-    message: `  Unlock the power of big data and analytics to gain invaluable insights
+    message: ` Unlock the power of big data and analytics to gain invaluable insights
         into your business operations. Our platform provides advanced tools and
-        techniques to analyze vast datasets, enabling you to make informed
-        decisions and drive strategic growth.`,
+        techniques to analyze vast datasets decisions and drive strategic growth.`,
     name: "John Snow",
     position: "COO, Visionary Technologies",
   },
@@ -49,9 +45,8 @@ export const testimonialData = [
     id: 5,
     img: user05,
     message: ` Unlock the power of big data and analytics to gain invaluable insights
-        into your business operations. Our platform provides advanced tools and
-        techniques to analyze vast datasets, enabling you to make informed
-        decisions and drive strategic growth.`,
+    into your business operations. Our platform provides advanced tools and
+    techniques to analyze vast datasets decisions and drive strategic growth.`,
     name: "Phil Joker",
     position: "NewYorkTimes Data Solutiob",
   },
