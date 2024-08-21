@@ -3,7 +3,7 @@ import home_video from "../../Assets/newsletter_video.mp4";
 
 function NewsLetter() {
   return (
-    <div className="w-full h-[300px]  text-white bg-red-300 relative">
+    <div className="w-full h-[300px]  text-white relative">
       <video autoPlay loop muted className="h-[100%] w-[100%] object-cover">
         <source src={home_video} type="video/mp4" />
       </video>
