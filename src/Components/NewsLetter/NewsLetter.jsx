@@ -23,7 +23,7 @@ function NewsLetter() {
               type="email"
               placeholder="Enter Email"
             />
-            <button className="text-[#000] w-[200px] mx-auto rounded-md ml-4 font-medium my-6 mx-auto py-3 bg-[#00df9a]">
+            <button className="text-[#000] w-[200px] rounded-md ml-4 font-medium my-6 mx-auto py-3 bg-[#00df9a]">
               Notify Me
             </button>
           </div>

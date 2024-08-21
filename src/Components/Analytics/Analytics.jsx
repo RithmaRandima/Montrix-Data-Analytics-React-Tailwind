@@ -1,13 +1,14 @@
 import React from "react";
-import bg_img from "../../Assets/sl_022321_41020_35.jpg";
-import img1 from "../../Assets/adam-smigielski-K5mPtONmpHM-unsplash.jpg";
+import bg_img from "../../Assets/analyze-background.jpg";
+import img1 from "../../Assets/analyze-1.jpg";
+import img2 from "../../Assets/analyze-2.jpg";
 
 function Analytics() {
   return (
     <div
-      className="w-full py-5 px-4 h-[100%] text-white"
+      className="w-full py-[50px] px-4 h-[100%] text-white"
       style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(${bg_img})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(${bg_img})`,
         backgroundSize: "cover",
       }}
     >
@@ -30,7 +31,7 @@ function Analytics() {
         </div>
 
         {/* right */}
-        <div className="flex align-middle justify-center h-[600px] p-5 border-[1px] border-gray-600 rounded-lg relative">
+        <div className="flex w-[100%] md:w-[90%] md:mx-auto align-middle justify-center h-[600px] p-5 border-[1px] border-gray-600 rounded-lg relative">
           <img
             src={img1}
             alt="/"
@@ -60,7 +61,7 @@ function Analytics() {
         {/* left */}
         <div className="flex align-middle justify-center h-[600px] p-5 border-[1px] border-gray-600 rounded-lg relative">
           <img
-            src={img1}
+            src={img2}
             alt="/"
             className="w-[100%] h-[100%] object-cover rounded-lg "
           />
