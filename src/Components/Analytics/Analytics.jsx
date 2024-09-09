@@ -1,6 +1,6 @@
 import React from "react";
-import bg_img from "../../Assets/analyze-background.jpg";
-import img1 from "../../Assets/analyze-1.jpg";
+import bg_img from "../../Assets/analyze-background.jpeg";
+import img1 from "../../Assets/analyze-1.jpeg";
 import img2 from "../../Assets/analyze-2.jpg";
 
 function Analytics() {

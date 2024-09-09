@@ -2,7 +2,7 @@ import React from "react";
 import BlogBox from "./BlogBox/BlogBox";
 import "./BlogBox/BlogBox.css";
 import img1 from "../../Assets/blog-1.jfif";
-import bgImg from "../../Assets/panoramic-view-dubai-city-illuminated-neon-spectrum.jpg";
+import bgImg from "../../Assets/bg_image-3.jpeg";
 
 import { blogData } from "../../Data/BlogData";
 import { IoMdAnalytics } from "react-icons/io";

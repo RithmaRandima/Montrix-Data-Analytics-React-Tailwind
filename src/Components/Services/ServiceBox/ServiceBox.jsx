@@ -1,5 +1,5 @@
 import React from "react";
-import bg_img from "../../../Assets/panoramic-view-dubai-city-illuminated-neon-spectrum.jpg";
+import bg_img from "../../../Assets/bg_image-3.jpeg";
 
 function ServiceBox(props) {
   return (

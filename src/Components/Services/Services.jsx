@@ -7,7 +7,7 @@ import img3 from "../../Assets/feature-3.png";
 import img4 from "../../Assets/feature-4.png";
 import img5 from "../../Assets/feature-5.png";
 import img6 from "../../Assets/feature-6.png";
-import bgImg from "../../Assets/about-background.jpg";
+import bgImg from "../../Assets/about-background.jpeg";
 
 import ServiceBox from "./ServiceBox/ServiceBox";
 

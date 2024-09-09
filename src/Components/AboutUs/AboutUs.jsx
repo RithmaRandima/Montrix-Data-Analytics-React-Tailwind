@@ -1,6 +1,6 @@
 import React from "react";
 import { IoMdAnalytics } from "react-icons/io";
-import bg_img from "../../Assets/about-background.jpg";
+import bg_img from "../../Assets/about-background.jpeg";
 import about_video from "../../Assets/about_video.mp4";
 import AboutUsItemBox from "./AboutUsItemBox/AboutUsItemBox";
 import { GrServerCluster } from "react-icons/gr";

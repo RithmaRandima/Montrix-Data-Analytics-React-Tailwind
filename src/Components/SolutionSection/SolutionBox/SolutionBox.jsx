@@ -1,5 +1,5 @@
 import React from "react";
-import bg_img from "../../../Assets/about-background.jpg";
+import bg_img from "../../../Assets/about-background.jpeg";
 
 function SolutionBox(props) {
   return (
