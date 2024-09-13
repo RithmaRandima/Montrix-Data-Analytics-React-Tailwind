@@ -25,8 +25,8 @@ function Navbar() {
     <div
       className={
         color === true
-          ? "fixed flex justify-between items-center box-border w-[100%] bg-[#fff]/90 text-black top-0 z-10 py-2 px-6 "
-          : "fixed flex justify-between items-center box-border w-[100%] bg-transparent top-0 z-10 py-2 px-6 text-white"
+          ? "fixed flex justify-between items-center box-border w-[100%] bg-[#fff]/90 text-black top-0 z-10 py-3 px-10 "
+          : "fixed flex justify-between items-center box-border w-[100%] bg-transparent top-0 z-10 py-3 px-6 text-white"
       }
     >
       {/* logo Section */}
