@@ -16,7 +16,7 @@ const PricingBox = (props) => {
       <hr />
 
       {/* package list */}
-      <div className="mt-7">
+      <div className="mt-7 hidden md:block">
         <div className="flex items-center justify-between my-3">
           <p className="font-[500] tracking-[1px] text-[15px]">
             Unlimited Site licenses

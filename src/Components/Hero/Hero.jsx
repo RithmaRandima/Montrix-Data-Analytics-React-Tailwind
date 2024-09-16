@@ -14,15 +14,15 @@ function Hero() {
           <p className="uppercase text-[#00df25] text-[13px] md:text-[16px] tracking-[2px] p-2 font-bold">
             Growing With Data Analytics
           </p>
-          <h1 className="md:text-7xl sm:text-6xl text-5xl font-[700] md:py-4">
+          <h1 className="md:text-7xl sm:text-5xl text-5xl font-[700] md:py-4">
             Grow with data.
           </h1>
           <div className="flex justify-center items-center">
-            <p className="md:text-5xl sm:text-4xl  text-[24px] font-bold pr-1 py-4">
+            <p className="md:text-5xl sm:text-4xl  text-[20px] font-bold pr-1 py-4">
               Fast, flexible financing for
             </p>
             <ReactTyped
-              className="md:text-5xl sm:text-4xl text-[30px] md:pl-4 font-bold text-[#00df25]"
+              className="md:text-5xl sm:text-4xl text-[24px] md:pl-4 font-bold text-[#00df25]"
               strings={["BTB", "SASS", "BTC"]}
               typeSpeed={120}
               backSpeed={130}

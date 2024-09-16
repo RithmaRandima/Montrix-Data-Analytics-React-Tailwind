@@ -28,14 +28,14 @@ const Footer = () => {
               <span className="text-white bg-black p-1">Analytics</span>
             </p>
           </div>
-          <p className="w-[100%] mx-auto text-center md:text-left text-[15px] text-gray-400">
+          <p className="hidden md:block w-[100%] mx-auto text-center md:text-left text-[15px] text-gray-400">
             <span className="text-[#00df25] font-bold">Montrix.</span> founded
             in 2025. There are many variations of passages of Ipsum available,
             but the majority have suffered alteration in some form, by injected
             humour or randomised words which.
           </p>
 
-          <h1 className="font-bold  md:mr-[142px] my-4 text-[16px]  tracking-[2px]">
+          <h1 className="hidden md:block font-bold  md:mr-[142px] my-4 text-[16px]  tracking-[2px]">
             FOLLOW ALONG
           </h1>
           <div className="flex gap-5 items-center w-fit mx-auto md:ml-1 justify-center mt-[13px]">
@@ -205,7 +205,7 @@ const Footer = () => {
 
       {/* bottom */}
       <div className="flex flex-col md:flex-row md:justify-between px-10 justify-center items-center py-4 gap-7 pb-[17px]  bg-[#000000] text-white">
-        <p className="text-[10px] md:text-[8px] tracking-[4px]">
+        <p className="text-[6px] md:text-[8px] tracking-[4px]">
           © 2024 <span className="text-[#00df25] font-bold">Montrix</span> ALL
           RIGHTS RESERVED.
         </p>
@@ -220,7 +220,7 @@ const Footer = () => {
             big data <span className="text-white bg-black p-1">Analytics</span>
           </p>
         </div>
-        <p className="text-[10px] font-bold uppercase tracking-[4px]">
+        <p className="hidden  md:block text-[10px] font-bold uppercase tracking-[4px]">
           SEcure Your Data With Us
         </p>
       </div>

@@ -4,12 +4,27 @@ import "./BlogBox/BlogBox.css";
 import img1 from "../../Assets/blog-1.jfif";
 import bgImg from "../../Assets/bg_image-3.jpeg";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 import { blogData } from "../../Data/BlogData";
 import { IoMdAnalytics } from "react-icons/io";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Background, Parallax } from "react-parallax";
 
 const Blog = () => {
+  var settings = {
+    arrows: false,
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 2600,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+  };
   return (
     <div id="blog" className="h-[100%] w-[100%] text-white md:mt-[100px] ">
       <Parallax strength={300} className="w-[100%] h-[100%]">
@@ -30,7 +45,7 @@ const Blog = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2  w-full h-[100%]">
             <div className="blog-box w-full h-[100%] p-2 py-6 font-sans">
-              <div className="blog-box-img-container w-[90%] mx-auto text-left">
+              <div className="blog-box-img-container hidden md:block w-[90%] mx-auto text-left">
                 <div className="w-[100%]  overflow-hidden  h-[300px]">
                   <img
                     src={img1}
@@ -60,7 +75,8 @@ const Blog = () => {
             {/* blog box Section*/}
             <div className="w-full h-[100%] p-2 py-6 ">
               {/* BlogBox Container */}
-              <div className="flex flex-col justify-between gap-2 md:gap-5">
+              {/* desktop */}
+              <div className="hidden md:flex flex-col justify-between gap-2 md:gap-5">
                 {blogData.map((data) => {
                   return (
                     <BlogBox
@@ -71,6 +87,21 @@ const Blog = () => {
                     />
                   );
                 })}
+              </div>
+              {/* mobile */}
+              <div className="w-[100%] h-[100%] my-6">
+                <Slider {...settings}>
+                  {blogData.map((data) => {
+                    return (
+                      <BlogBox
+                        img={data.img}
+                        date={data.date}
+                        title={data.title}
+                        description={data.description}
+                      />
+                    );
+                  })}
+                </Slider>
               </div>
             </div>
           </div>

@@ -33,7 +33,8 @@ const AboutUs = () => {
       {/* middle section */}
       <div className="w-[100%] h-[100%] grid grid-col-1  md:grid-cols-2">
         {/* left */}
-        <div className="w-[100%] h-[100%] flex flex-col gap-5 justify-between pl-3">
+        {/* desktop */}
+        <div className="w-[100%] h-[100%] md:flex flex-col gap-5 justify-between pl-3">
           <AboutUsItemBox
             icon={<GrServerCluster />}
             title={"Precision in predictive analytics."}

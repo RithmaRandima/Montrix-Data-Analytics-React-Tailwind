@@ -46,7 +46,8 @@ const PricingSection = () => {
       </div>
 
       {/* right section */}
-      <div className=" w-[70%] mx-auto md:w-[100%] h-[100%] mt-[-50px] md:mt-[0]   relative grid md:grid-cols-2 gap-10 md:gap-0">
+      {/* desktop */}
+      <div className=" w-[80%] mx-auto md:w-[100%] h-[100%] mt-[-50px] md:mt-[0]   relative grid md:grid-cols-2 gap-10 md:gap-0">
         <PricingBox title={"Basic Package"} price="200" />
         <PricingBox title={"Advanced Package"} price="300" />
       </div>

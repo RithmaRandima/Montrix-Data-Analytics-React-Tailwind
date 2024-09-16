@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUsItemBox = (props) => {
   return (
-    <div className="md:w-[100%] w-[95%] mx-auto md:ml-[0.0001px] h-[200px] pl-1">
+    <div className="md:w-[100%] w-[95%] mx-auto md:ml-[0.0001px] h-[200px] md:pl-1 mb-10 md:mb-0">
       {/* top */}
       <div className="flex md:flex-row flex-col items-center gap-4 py-3">
         <div className="w-[50px] h-[50px] md:w-[80px] md:h-[80px] bg-[#181818] rounded-lg flex items-center justify-center md:text-[25px] text-[20px]">

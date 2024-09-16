@@ -5,7 +5,22 @@ import img3 from "../../Assets/feature-3.png";
 import SolutionBox from "./SolutionBox/SolutionBox";
 import { IoMdAnalytics } from "react-icons/io";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 const SolutionSection = () => {
+  var settings = {
+    arrows: false,
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 2600,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+  };
   return (
     <div className="text-white w-[100%] h-[100%] flex flex-col items-center pb-6">
       {/* top text */}
@@ -19,10 +34,19 @@ const SolutionSection = () => {
         </h1>
       </div>
       {/* bottom box */}
-      <div className=" w-[90%] grid md:grid-cols-3 gap-8">
+      {/* desktop */}
+      <div className="hidden md:grid w-[90%] md:grid-cols-3 gap-8">
         <SolutionBox image={img1} title={"Data Analysis"} />
         <SolutionBox image={img2} title={"AI Solutions"} />
         <SolutionBox image={img3} title={"Data Security"} />
+      </div>
+      {/* mobile */}
+      <div className="md:hidden block w-[90%] h-[100%]">
+        <Slider {...settings}>
+          <SolutionBox image={img1} title={"Data Analysis"} />
+          <SolutionBox image={img2} title={"AI Solutions"} />
+          <SolutionBox image={img3} title={"Data Security"} />
+        </Slider>
       </div>
     </div>
   );
